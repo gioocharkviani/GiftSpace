@@ -42,7 +42,7 @@
     height: 250px;
     background-color: rgb(255, 174, 0);
     align-self: center;
-    border-radius: 20px;
+    border-radius: 50%;
 }
 
 .main-page-boxB {
@@ -50,5 +50,5 @@
     height: 250px;
     background-color: rgb(255, 174, 0);
     align-self: center;
-    border-radius: 20px;
+    border-radius: 50%;
 }
