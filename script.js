@@ -8,7 +8,7 @@ const CenterBorder = document.querySelector(".Center-Border");
 boxAstylechanger.addEventListener('click' , (e) =>{
     sideA.style = 'width:100%';
     sideB.style = 'width:0%';
-    CenterBorder.style = 'display:none ';
+    CenterBorder.style = 'height:0 ; transition: 0.5s';
     setTimeout(() => {
         sideB.style = 'display:none ';
         CenterBorder.style = 'display:none ';
@@ -18,8 +18,9 @@ boxAstylechanger.addEventListener('click' , (e) =>{
 boxBstylechanger.addEventListener('click' , (e) =>{
     sideB.style = 'width:100%';
     sideA.style = 'width:0%';
-    CenterBorder.style = 'display:none ';
+    CenterBorder.style = 'height:0 ; transition: 0.5s';
     setTimeout(() => {
         sideA.style = 'display:none ';
+        CenterBorder.style = 'display:none ';
       }, "1000")
 })
